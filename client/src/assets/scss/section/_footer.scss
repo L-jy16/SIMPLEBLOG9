@@ -1,0 +1,17 @@
+#footer {
+    text-align: center;
+    padding: 30px auto;
+    // padding-bottom: 30px;
+
+    a {
+
+        color: var(--black300);
+        padding: 20px 20px;
+        display: inline-block;
+
+        &:hover {
+            @include underline;
+            text-decoration-color: var(--white300);
+        }
+    }
+}

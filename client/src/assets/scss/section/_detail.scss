@@ -1,0 +1,72 @@
+.detail__wrap {
+    width: 800px;
+    margin: 20px auto;
+    border: 1px solid rgb(243, 240, 255);
+    background: rgb(244, 243, 252);
+
+    .detail__title {
+        padding-bottom: 20px;
+        border-bottom: 1px dashed rgb(205, 196, 250);
+
+        h3 {
+            margin-bottom: 10px;
+            border-bottom: 1px solid rgb(100, 70, 255);
+            padding: 20px 0 20px 20px;
+            font-size: 23px;
+            color: rgb(100, 70, 255);
+            font-weight: bold;
+        }
+
+        .auth {
+            font-size: 14px;
+            color: rgb(143, 149, 171);
+            position: relative;
+            padding-left: 50px;
+            font-weight: bold;
+
+            &::before {
+                content: '';
+                width: 20px;
+                height: 20px;
+                background-color: rgb(100, 70, 255);
+                position: absolute;
+                left: 20px;
+                top: 0;
+                border-radius: 50%;
+            }
+
+        }
+    }
+
+    .detail__content {
+        min-height: 500px;
+        color: rgb(80, 85, 103);
+        word-break: keep-all;
+        padding: 20px;
+    }
+
+    .detail__btn {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-bottom: 20px;
+
+        button {
+            background-color: rgb(100, 70, 255);
+            color: var(--white);
+            padding: 10px 20px;
+            margin-right: 10px;
+            border-radius: 50px;
+            cursor: pointer;
+        }
+
+        a {
+            background-color: rgb(100, 70, 255);
+            color: var(--white);
+            padding: 10px 20px;
+            margin-right: 10px;
+            border-radius: 50px;
+            cursor: pointer;
+        }
+    }
+}

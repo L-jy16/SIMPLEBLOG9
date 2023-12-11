@@ -1,0 +1,108 @@
+// 100 thin
+// 200 ExtraLight
+// 300 Light
+// 400 Regular
+// 500 Medium
+// 600 SemiBold
+// 700 Bold
+// 800 ExtraBold
+// 900 Black
+
+@font-face {
+    font-family: "nanumSquareNeo";
+    font-weight: 300;
+    font-style: normal;
+    src: url("../../fonts/nanumSquareNeo-Light.woff") format("woff"),
+        url("../../fonts/nanumSquareNeo-Light.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "nanumSquareNeo";
+    font-weight: 400;
+    font-style: normal;
+    src: url("../../fonts/nanumSquareNeo-Regular.woff") format("woff"),
+        url("../../fonts/nanumSquareNeo-Regular.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "nanumSquareNeo";
+    font-weight: 700;
+    font-style: normal;
+    src: url("../../fonts/nanumSquareNeo-Bold.woff") format("woff"),
+        url("../../fonts/nanumSquareNeo-Bold.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "nanumSquareNeo";
+    font-weight: 800;
+    font-style: normal;
+    src: url("../../fonts/nanumSquareNeo-ExtraBold.woff") format("woff"),
+        url("../../fonts/nanumSquareNeo-ExtraBold.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "nanumSquareNeo";
+    font-weight: 900;
+    font-style: normal;
+    src: url("../../fonts/nanumSquareNeo-Black.woff") format("woff"),
+        url("../../fonts/nanumSquareNeo-Black.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "nexonLv1";
+    font-weight: 300;
+    font-style: normal;
+    src: url("../../fonts/nexonLv1-Light.woff") format("woff"),
+        url("../../fonts/nexonLv1-Light.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "nexonLv1";
+    font-weight: 400;
+    font-style: normal;
+    src: url("../../fonts/nexonLv1-Regular.woff") format("woff"),
+        url("../../fonts/nexonLv1-Regular.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "nexonLv1";
+    font-weight: 700;
+    font-style: normal;
+    src: url("../../fonts/nexonLv1-Bold.woff") format("woff"),
+        url("../../fonts/nexonLv1-Bold.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CookieRun';
+    font-weight: 400;
+    font-style: normal;
+    src: url("../../fonts/CookieRunRegular.woff2") format('woff2'),
+        url("../../fonts/CookieRunRegular.woff") format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CookieRun';
+    font-weight: 700;
+    font-style: normal;
+    src: url("../../fonts/CookieRunBold.woff2") format('woff2'),
+        url("../../fonts/CookieRunBold.woff") format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CookieRun';
+    font-weight: 900;
+    font-style: normal;
+    src: url("../../fonts/CookieRunBlack.woff2") format('woff2'),
+        url("../../fonts/CookieRunBlack.woff") format('woff');
+    font-display: swap;
+}
