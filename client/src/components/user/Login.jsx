@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import firebase from "../../firebase.js";
 
@@ -29,6 +29,12 @@ const Login = () => {
             }
         }
     }
+
+    useEffect(() => {
+        setTimeout(() => {
+            setErrorMsg("");
+        }, 5000)
+    }, [errorMsg])
 
     return (
         <div className='login__wrap'>
